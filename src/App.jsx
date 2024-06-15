@@ -1,4 +1,4 @@
-import { Section, Container, Header, Text } from 'components';
+import { Section, Container, Header, Text, TodoList } from 'components';
 import { Form } from 'components';
 export const App = () => {
   return (
@@ -8,6 +8,7 @@ export const App = () => {
         <Container>
           <Text textAlign="center">Create your first todo😉</Text>
           <Form />
+          <TodoList />
         </Container>
       </Section>
     </>
